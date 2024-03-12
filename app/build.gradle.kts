@@ -44,7 +44,11 @@ dependencies {
     val retrofitGsonVersion = "2.9.0"
     val gsonVersion = "2.10.1"
     val lifecycleVersion = "2.7.0"
+    val navVersion = "2.7.7"
 
+    implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
     implementation("androidx.paging:paging-runtime-ktx:$pagingVersion")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
@@ -53,6 +57,7 @@ dependencies {
     implementation("com.google.code.gson:gson:$gsonVersion")
     implementation("com.squareup.retrofit2:converter-gson:$retrofitGsonVersion")
     implementation("com.github.bumptech.glide:glide:$glideVersion")
+
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")

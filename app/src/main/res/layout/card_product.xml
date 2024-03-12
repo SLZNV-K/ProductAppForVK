@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="16dp">
+    android:layout_margin="@dimen/common_spacing">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardImage"
@@ -18,7 +18,7 @@
         <ImageView
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="@dimen/photo_height"
             android:contentDescription="@string/preview_product"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="@dimen/reduced_spacing"
         android:textColor="@color/red"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -47,11 +47,10 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@id/cardImage"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/price"
-        tools:text="@tools:sample/lorem[3]" />
+        tools:text="@tools:sample/lorem[3]"
+        app:layout_constraintBottom_toTopOf="@id/description"/>
 
     <TextView
         android:id="@+id/description"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_product">Предварительный просмотр продукта</string>
+    <string name="product_photo">Фото продукта</string>
+    <string name="star_rating">Рейтинг продукта (количество звезд)</string>
+    <string name="error_loading">Ошибка загрузки</string>
+    <string name="error_message">Сеть недоступна. Убедитесь, что ваше устройство подключено к сети.</string>
+    <string name="retry">Повторить попытку</string>
+    <string name="cancel">Отмена</string>
+</resources>

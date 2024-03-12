@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">ProductAppForVK</string>
+    <string name="app_name" translatable="false">Products</string>
     <string name="preview_product">Preview of product</string>
+    <string name="product_photo">Product photo</string>
+    <string name="star_rating">Product rating (number of stars)</string>
+    <string name="error_loading">Error loading</string>
+    <string name="error_message">The network is unavailable. Make sure your device is connected to the network.</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
 </resources>

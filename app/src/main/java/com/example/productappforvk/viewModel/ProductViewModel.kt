@@ -12,5 +12,4 @@ class ProductViewModel : ViewModel() {
 
     private val repository = ProductRepositoryImpl()
     val products: Flow<PagingData<Product>> = repository.data.cachedIn(viewModelScope)
-
 }
